@@ -1,0 +1,13 @@
+itoa.o : itoa.c itoa.h
+	g++ -Wall -g -c itoa.c
+
+WString.o : WString.cpp WString.h
+	g++ -Wall -g -c WString.cpp
+
+main.o : main.c wherewhen.h countd
+	g++ -Wall -g -c main.c
+
+myprogram : main.o countdown.o wherewhen.o
+	g++ -g wherewhen.o countdown.o main.o -lm -o myprogram
+
+g++ -g  itoa.c WString.cpp messageTorch.cpp -o test
