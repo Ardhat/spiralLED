@@ -1,3 +1,4 @@
+![Ardhat](logo.png)
 # spiralLED
 
 Text display from a string of WS2812 LEDS in a spiral on the Raspberry Pi , no need to cut the string!
