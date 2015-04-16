@@ -7,6 +7,7 @@ Designed for Raspberry Pi A+ and up, including Raspberry Pi 2.
 
 Works with an Ardhat which provides level shifting and high current driver, see http://ardhat.com for more details.
 
+![Amaretti](ArdhatAmaretti.gif)
 
 If you want to use it with a bare Raspberry Pi, you can build a level shifter like this http://i.stack.imgur.com/EUVMW.png
 
